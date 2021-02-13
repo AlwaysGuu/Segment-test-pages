@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Segment Login</title>
+    <title>Segment Sign UP</title>
     <style>
         body {
             background-color: rgb(44, 50, 61);
@@ -31,17 +31,17 @@
             margin: 0 30px;
         }
         
+        .nav_login_link_login a {
+            color: white;
+            text-decoration: none;
+        }
+        
         .nav_login_link_sign_up {
             background-color: rgb(75, 75, 75);
             font-size: 30px;
             padding: 5px 9px;
             border-radius: 10px;
             color: white;
-        }
-        
-        .nav_login_link_sign_up a {
-            color: white;
-            text-decoration: none;
         }
         
         .nav_n_links {
@@ -51,7 +51,7 @@
         }
         
         #login_window {
-            height: 400px;
+            height: 500px;
             width: 400px;
             background-color: rgb(109, 105, 105);
             color: white;
@@ -93,15 +93,17 @@
                 <span class="nav_n_links">Home</span>
                 <span class="nav_n_links">Speedruns</span>
                 <span class="nav_n_links">Help</span>
-                <span class="nav_login_link_login">Login</span>
-                <span class="nav_login_link_sign_up"><a href="/sign_up/">Sign UP</a></span>
+                <span class="nav_login_link_login"><a href="/login/">Login</a></span>
+                <span class="nav_login_link_sign_up"><a>Sign UP</a></span>
             </div>
         </div>
         <div id="login_window">
-            Login
+            Sign UP
             <div class="login_window_input">E-mail<input type="text"></div>
+            <div class="login_window_input">Username<input type="text"></div>
             <div class="login_window_input">Password<input type="password"></div>
-            <button>Login</button>
+            <div class="login_window_input">Confirm Password<input type="password"></div>
+            <button>Sign UP</button>
         </div>
 
 
