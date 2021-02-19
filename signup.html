@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BallanceRecord</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" /> 
+    <script src="scripts/signup.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav">
+            BallanceRecord Test Page
+            <div id="nav_links">
+                <span class="nav_n_links">Speedruns</span>
+                <span class="nav_n_links">About</span>
+                <span class="nav_login_link_login"><a href="login.html">Log In</a></span>
+                <span class="nav_login_link_sign_up"><a>Sign Up</a></span>
+            </div>
+        </div>
+        <div id="login_window">
+            Sign Up
+            <div class="login_window_input">E-mail<input type="email" id="email"></div>
+            <div class="login_window_input">Username<input type="text" id="username"></div>
+            <div class="login_window_input">Password<input type="password" id="password"></div>
+            <div class="login_window_input">Confirm Password<input type="password" id="confirm_password"></div>
+            <button onclick="signup()">Sign Up</button>
+        </div>
+    </div>
+    <div>
+        <textarea id="output" readonly="readonly" rows="10"></textarea>
+    </div>
+</body>
